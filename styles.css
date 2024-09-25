@@ -1,0 +1,18 @@
+/*Please note that I am writing in Sass syntax, 
+  And that I will be using a compiler to convert it to CSS*/
+/*just messing around with stuff to see if I remember shit*/
+p {
+  color: red;
+}
+p:hover {
+  color: blue;
+}
+
+h1 {
+  color: green;
+  font-style: bold;
+}
+h1:hover {
+  color: black;
+  font-style: italic;
+}/*# sourceMappingURL=styles.css.map */
