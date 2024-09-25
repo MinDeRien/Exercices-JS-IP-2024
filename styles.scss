@@ -1,17 +1,83 @@
-/*Please note that I am writing in Sass syntax, 
-  And that I will be using a compiler to convert it to CSS*/
-/*just messing around with stuff to see if I remember shit*/
-p {
-  color: red;
-  &:hover {
-    color: blue;
+/* ------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+
+MESSING AROUND WITH STUFF; CSS IS NOT ORGANIZED YET
+
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+------------------------------------------------------ */
+*:not(code){
+  font-family: "Comic Neue", sans-serif;
+  .big{
+    font-style: bold;
+    font-size: 50px;
+    line-height: 90%;
+  }
+  body{
+    background-color: lightblue;
+    background-image: url(https://img.freepik.com/free-vector/vector-seamless-pancake-strawberry-blueberry-pattern-background_53876-169013.jpg?size=626&ext=jpg;);
+    background-repeat: repeat;
+    background-size: 250px;
+  }
+  div#wrapper{
+    background-color: rgba(255, 255, 255, 0.77);
+    width: 800px;
+    margin: auto;
+    margin-top: -40px;
+    padding: 50px 40px;
+
   }
 }
+
+
 h1 {
-  color: green;
-  font-style: bold;
-  &:hover {
-    color: black;
-    font-style: italic;
-  }
+  font-size: 42px;
+  font-weight: bold;
 }
+section:nth-of-type(1){
+  background-color: pink;
+}
+figure{
+  text-align: center;
+}
+img {
+  width: auto;
+  height: 400px;
+}
+section:nth-of-type(2) ul{
+  //ta meilleure pancake
+  list-style-type: "🥞";
+}
+.italics{
+  font-style: italic;
+}
+.bold{
+  font-weight: bold;
+}
+#serie1>textarea{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;  
+  height: 69px;
+  font-size: 20px;
+  color: orange;
+  border-color: orange;
+  border-radius: 10px;
+  border-width: 4px
+}
+code{
+  font-size: 16px;
+  background-color: lightgray;
+}
+.pAsSiOn{
+  //snippet arc-en-ciel trouvé via https://welearncode.com/rainbow-text/
+  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+

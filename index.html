@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tests de base pour le cours</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <h1>Le titre de ma page</h1>
-        <h2>Un autre titre</h2>
 
-    </header>
+<body>
+<div id="wrapper">
+    <h1 class="big">Fourre-tout pour le cours de Javascript</h1>
     <section id="intro">
+        <header>
+            <h1> Cours du 25 Septembre 2024</h1>
+        </header>
         <p>Un paragraphe d'introduction</p>
         <span>Un span</span>
         <div class="block">Un div</div>
@@ -35,11 +37,33 @@
 
     </form>
     </section>
+    <section id="serie1">
+        <h1 class="big">Le super site de la série 1</h1>
+        <h1 class="pAsSiOn">~~~~gRaPhIc dEsIgN iS mY pAsSiOn~~~~</h1>
+        <h1>Recette de Pancakes</h1>
+        <h2>(Merci à <a href="https://www.swissmilk.ch/fr/recettes-idees/recettes/SM2017_DIVE_05/pancakes/">Swissmilk</a> pour la recette.)</h2>
+        <figure>
+            <figcaption>Cliquez sur l'image pour découvrir un truc rigolo</figcaption>
+            <a href="https://neal.fun/password-game/" target="_blank"><img src="https://res.cloudinary.com/swissmilk/image/fetch/x_1285,y_1027,ar_16:10,g_xy_center,w_1296,c_fill,f_auto,q_auto,fl_progressive/https://api.swissmilk.ch/wp-content/uploads/2019/06/pancakes.jpg"></a>
+        </figure>
+        <p class="italics">Question existentielle: Par quel miracle le lien sur l'image s'ouvre-t-il dans un autre onglet??</p>
+        <p><span class ="bold">Réponse: </span>C'est parce que <code>target="_blank"</code> est le bff des onglets!</p>
 
-    <!-- FOR NEXT WEEK MAKE A WEB PAGE-->
-    <!-- WITH A HEADER, A MAIN SECTION, A FOOTER -->
-    <!-- Consignes seront sûrement sur le discord -->
-
+        <h2>Ingrédients</h2>
+        <ul>
+            <li>Oeufs</li>
+            <li>Poudre à lever</li>
+            <li>Sucre</li>
+            <li>Sel</li>
+            <li>Sucre vanillé</li>
+            <li>Lait</li>
+        </ul>
+            <textarea name="commentaires" id="les commentaires" placeholder="Votre avis donné librement sur ces délicieuses pancakes que vous adorez"></textarea>
+        <p>Vous êtes sur mon incroyable page de démo, mais si vous voulez voir l'originale, c'est <a href="https://johancuda.github.io/devweb-gists/" target="_blank">ici</a></p>
+        <h2>Exercice 2</h2>
+        <p>Allez lire la documentation sur la balise <code>&lt;img&gt;</code></p>
+    </section>
+</div>
 </body>
 </html>
 
