@@ -11,7 +11,7 @@ MESSING AROUND WITH STUFF; CSS IS NOT ORGANIZED YET
 ---------------------------------------------------------
 ------------------------------------------------------ */
 *:not(code) {
-  font-family: "Comic Neue", sans-serif;
+  font-family: "Comic Neue", Comic, sans-serif;
 }
 *:not(code) .big {
   font-style: bold;

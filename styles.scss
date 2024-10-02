@@ -10,7 +10,7 @@ MESSING AROUND WITH STUFF; CSS IS NOT ORGANIZED YET
 ---------------------------------------------------------
 ------------------------------------------------------ */
 *:not(code){
-  font-family: "Comic Neue", sans-serif;
+  font-family: "Comic Neue", Comic,sans-serif;
   .big{
     font-style: bold;
     font-size: 50px;
@@ -82,4 +82,3 @@ code{
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
